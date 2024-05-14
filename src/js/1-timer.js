@@ -20,7 +20,7 @@ flatpickr(datetimePicker, {
       iziToast.error({
         title: 'Error',
         message: 'Please choose a date in the future',
-        position: 'bottomRight'
+        position: 'topRight'
       });
       startBtn.disabled = true;
     } else {
@@ -38,7 +38,7 @@ startBtn.addEventListener("click", () => {
     iziToast.error({
       title: 'Error',
       message: 'Please choose a date in the future',
-      position: 'bottomRight'
+      position: 'topRight'
     });
     return;
   }
